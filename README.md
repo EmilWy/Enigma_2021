@@ -15,10 +15,6 @@ Pierwszym kodem było “encrypt”(znalezione na końcu kodu w Encrypt.py), kt�
 Przykład działania funkcji dla :
 -encrypt("D", "III", "B", "D")
 -decrypt("S", "III", "B", "D")
- <img width="959" height="406" alt="image" src="https://github.com/user-attachments/assets/079525d3-1641-484b-95c9-c28aded2d4f7" />
-
-Jak widać w przypadku encrypt na samym początku index literki w alfabecie idzis w prawo o 3(index „D”), następnie szuka co znajduje się pod nowym indexem ale w rotorze(w tym przypadku „III”). Kolejnym krokiem jest ruch w lewo indexem danej literki o 1 (index „B”) oraz wyszukanie w alfabecie nowej literki, następnie ruch w lewo o 1 oraz w prawo o 3. Decrypt działa podobnie ale w trochę innej kolejności.
-Natomiast funkcja multi_encryption jest zbiorem wszystkich pomniejszych kodowań krok_po_kroku, zwracając zakodowaną literę oraz step_by_step_encryption. 
  
 W “Plugboard” jest możliwość wpisania więcej niż 20 literek ale funkcja “make_it_two” skraca zbiór znaków do 20 a potem łączy w pary litery obok siebie. Jeżeli literka się powtórzy w którymkolwiek nawiasie to poprzez “connect” który najpierw zwraca literki do poprzedniej formy potem je znowu łączy, więc połączenie z daną literką działa w ostatnim nawiasie gdzie się znajduje. Set_plugboard zapisuje zmiany w pliku (plugboard.json).
 “Rotors.json”, to w praktyce biblioteka danych, gdzie czytamy indeksy i literki, oraz gdzie sczytujemy możliwe do wykorzystania “rotory” i “reflektory”. Wszystkie metody w klasie “Rotor” mają na celu przesuwania się między indeksami liter czy wyszukiwania liter z indeksów z wybranego rotora.
