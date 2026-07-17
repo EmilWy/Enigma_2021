@@ -1,0 +1,68 @@
+[
+    {
+        "Name": "Rotor",
+        "Number": "III",
+        "List_of_leters": [
+            "B", "D", "F", "H", "J", "L",
+            "C", "P", "R", "T", "X", "V",
+            "Z", "N", "Y", "E", "I", "W",
+            "G", "A", "K", "M", "U", "S",
+            "Q", "O"
+        ]
+    },
+    {
+        "Name":"abc",
+        "Number": "abc",
+        "List_of_leters": [
+            "A", "B", "C", "D", "E", "F",
+            "G", "H", "I", "J", "K", "L",
+            "M","N", "O", "P", "Q", "R",
+            "S","T", "U", "V", "W", "X",
+            "Y", "Z"
+        ]
+    },
+    {
+        "Name": "Rotor",
+        "Number": "II",
+        "List_of_leters": [
+            "A", "J", "D", "K", "S","I",
+            "R", "U", "X", "B", "L", "H",
+            "W", "T", "M", "C", "Q", "G",
+            "Z", "N", "P", "Y", "F", "V",
+            "O", "E"
+        ]
+    },
+    {
+        "Name": "Rotor",
+        "Number": "I",
+        "List_of_leters": [
+            "E", "K", "M", "F", "L", "G",
+            "D", "Q", "V", "Z", "N", "T",
+            "O", "W", "Y", "H", "X", "U",
+            "S", "P", "A", "I", "B", "R",
+            "C", "J"
+        ]
+    },
+    {
+        "Name": "Reflector",
+        "Number": "B",
+        "A":"Y", "B":"R", "C":"U", "D":"H",
+        "E":"Q", "F":"S", "G":"L", "H":"D",
+        "I":"P", "J":"X", "K":"N", "L":"G",
+        "M":"O", "N":"K", "O":"M", "P":"I",
+        "Q":"E", "R":"B", "S":"F", "T":"Z",
+        "U":"C", "V":"W", "W":"V", "X":"J",
+        "Y":"A", "Z":"T"
+    },
+    {
+        "Name": "Reflector",
+        "Number": "C",
+        "A":"F", "B":"V", "C":"P", "D":"J",
+        "E":"I", "F":"A", "G":"O", "H":"Y",
+        "I":"E", "J":"D", "K":"R", "L":"Z",
+        "M":"X", "N":"W", "O":"G", "P":"C",
+        "Q":"T", "R":"K", "S":"U", "T":"Q",
+        "U":"S", "V":"B", "W":"N", "X":"M",
+        "Y":"H", "Z":"L"
+    }
+]
