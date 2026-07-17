@@ -15,7 +15,8 @@ Pierwszym kodem było “encrypt”(znalezione na końcu kodu w Encrypt.py), kt�
 Przykład działania funkcji dla :
 -encrypt("D", "III", "B", "D")
 -decrypt("S", "III", "B", "D")
- 
+ <img width="959" height="406" alt="image" src="https://github.com/user-attachments/assets/079525d3-1641-484b-95c9-c28aded2d4f7" />
+
 Jak widać w przypadku encrypt na samym początku index literki w alfabecie idzis w prawo o 3(index „D”), następnie szuka co znajduje się pod nowym indexem ale w rotorze(w tym przypadku „III”). Kolejnym krokiem jest ruch w lewo indexem danej literki o 1 (index „B”) oraz wyszukanie w alfabecie nowej literki, następnie ruch w lewo o 1 oraz w prawo o 3. Decrypt działa podobnie ale w trochę innej kolejności.
 Natomiast funkcja multi_encryption jest zbiorem wszystkich pomniejszych kodowań krok_po_kroku, zwracając zakodowaną literę oraz step_by_step_encryption. 
  
